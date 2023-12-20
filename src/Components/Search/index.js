@@ -133,7 +133,7 @@ class Search extends Component {
         </form>
         <div className="search_middle_card">{this.searchListView()}</div>
 
-        <Footer />
+        <Footer className="footer-section" />
       </div>
     )
   }
